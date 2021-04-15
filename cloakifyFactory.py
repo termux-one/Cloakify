@@ -53,7 +53,6 @@ for root, dirs, files in os.walk( "./noiseTools" ):
 	    
 
 def CloakifyFile():
-	print ""
 	print "====  Cloakify a File  ===="
 	print ""
 	sourceFile = raw_input("Enter filename to cloak (e.g. ImADolphin.exe or /foo/bar.zip): ")
